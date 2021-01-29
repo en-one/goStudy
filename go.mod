@@ -4,5 +4,4 @@ go 1.15
 
 require (
 	github.com/gin-gonic/gin v1.6.3
-	github.com/gorilla/handlers v1.5.1 // indirect
 )

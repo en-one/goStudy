@@ -36,7 +36,8 @@ func TestCancel(t *testing.T) {
 
 		}(i, cancelChan)
 	}
-	cancel2(cancelChan)
+	cancel1(cancelChan)
+	//cancel2(cancelChan)
 	time.Sleep(time.Second * 1)
 
 }

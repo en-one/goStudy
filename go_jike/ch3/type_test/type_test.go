@@ -21,7 +21,7 @@ func TestImpLicit(t *testing.T) {
 func TestPoint(t *testing.T) {
 	a := 1
 	aPtr := &a
-	aptr = aPtr + 1 //错误
+	//aptr = aPtr + 1 //错误
 	t.Log(a, aPtr)
 	t.Logf("%T %T", a, aPtr)
 }
